@@ -1,3 +1,5 @@
 # Micronaut Runtime
 
-适配声明与可运行示例位于 `micronaut/runtime`，固定 Micronaut Context 5.1.13，发布坐标为 `micronaut:runtime:1`。公开面覆盖标准启动入口与嵌入式服务生命周期。
+[English](README.md) | [简体中文](README.zh-CN.md)
+
+The adapter declaration and runnable example are in `micronaut/runtime`. It pins Micronaut Context 5.1.13 and publishes as `micronaut:runtime:1`. The public API covers the standard startup entry point and embedded-server lifecycle.
