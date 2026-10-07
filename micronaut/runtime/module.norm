@@ -1,7 +1,9 @@
 Module module() {
   return module(
     name: "micronaut.runtime",
-    version: 3,
+    version: 4,
+    exports: ["runtime.server.EmbeddedServer"],
+    dependencies: [dependency(repository: "norm", name: "java.base", version: 1)],
     binding: jarBinding(
       target: mavenJar(
         group: "io.micronaut",
@@ -11,7 +13,7 @@ Module module() {
       ),
       api: [
         jarType(
-          name: "runtime.server.EmbeddedServer",
+          name: "io.micronaut.runtime.server.EmbeddedServer", alias: "runtime.server.EmbeddedServer",
           members: ["getHost", "getPort", "getURI", "isServer"]
         )
       ]
