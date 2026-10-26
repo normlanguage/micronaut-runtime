@@ -1,6 +1,6 @@
 # micronaut.runtime Skill
 
-Use this skill to work with Norm module `micronaut.runtime` version 4. Use only declarations listed below.
+Use this skill to work with Norm module `micronaut.runtime` version 5. Use only declarations listed below.
 
 ## `micronaut.runtime.context`
 
